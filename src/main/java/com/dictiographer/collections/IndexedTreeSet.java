@@ -94,9 +94,6 @@ public class IndexedTreeSet<E> extends java.util.AbstractSet<E>
      * Constructs a set backed by the specified navigable map.
      */
     IndexedTreeSet(NavigableMap<E, Object> m) {
-        if (!(m instanceof IndexedTreeMap)) {
-            throw new IllegalArgumentException("Map should implement IndexedTreeMap");
-        }
         this.m = m;
     }
 
