@@ -4,36 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexed-tree-map.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/junit-4.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/AbstractMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/AbstractMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/AbstractSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/AbstractSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/IndexedNavigableMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/IndexedNavigableMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/IndexedNavigableSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/IndexedNavigableSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/IndexedTreeMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/IndexedTreeMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/main/java/com/dictiography/collections/IndexedTreeSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dictiographer/collections/IndexedTreeSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/test/java/com/dictiography/collections/IndexedTreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeMapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/test/java/com/dictiography/collections/IndexedTreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java" afterDir="false" />
+    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="Maven refactoring after import from Code Google. Update JUnit to v.5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621537635868</updated>
-      <workItem from="1621537637277" duration="271000" />
+      <workItem from="1621537637277" duration="3581000" />
     </task>
+    <task id="LOCAL-00001" summary="Maven refactoring after import from Code Google. Update JUnit to v.5">
+      <created>1621538025120</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621538025120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Maven refactoring after import from Code Google. Update JUnit to v.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Maven refactoring after import from Code Google. Update JUnit to v.5" />
   </component>
 </project>
