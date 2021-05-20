@@ -84,3 +84,27 @@ Or... whatever.
 
 # License
 The same as of JDK. I copied the implementation and enhanced it. 
+
+# Links
+Popular question on Stackoverflow:
+
+How to return the k-th element in TreeSet in Java?
+https://stackoverflow.com/questions/8856815/how-to-return-the-k-th-element-in-treeset-in-java
+
+Find element position in a Java TreeMap
+https://stackoverflow.com/questions/8502542/find-element-position-in-a-java-treemap
+
+Why is there no SortedList in Java?
+https://stackoverflow.com/questions/8725387/why-is-there-no-sortedlist-in-java
+
+Any implementation of Ordered Set in Java?
+https://stackoverflow.com/questions/8712469/any-implementation-of-ordered-set-in-java
+
+Why doesn't java.util.Set have get(int index)?
+https://stackoverflow.com/questions/769731/why-doesnt-java-util-set-have-getint-index
+
+How to find the index of an element in a TreeSet?
+https://stackoverflow.com/questions/7911621/how-to-find-the-index-of-an-element-in-a-treeset
+
+What is the most efficient way to access particular elements in a SortedSet?
+https://stackoverflow.com/questions/5334020/what-is-the-most-efficient-way-to-access-particular-elements-in-a-sortedset
