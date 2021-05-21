@@ -61,7 +61,7 @@ Let's take a look at the following method:
                 p = p.parent;
         }
 
-parent.left + 1 = 3 ! 
+e.left + parent.left + 1 + (parent.parent.left + 1...) = 3 ! 
 
 parent:8, parent.left:1, parent.left.weight=2
 
@@ -71,7 +71,9 @@ Index starts from 0. 11 is 4th element, so index = 3
 Indeed. If we draw vertical lines through centers of each node 
 we can see that lines reveal the sorted order of our tree elements.
 
-So to get index we need to sum up parent weights to the left side of our node.
+So to get index we need to sum up everything to the left of our node.
+
+If you are not sure about this check out the elaborate test
 
 # How to use / install
 There are no versions and there will be no versions. I think what's done is enough.

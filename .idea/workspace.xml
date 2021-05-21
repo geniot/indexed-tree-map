@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="Links to questions.">
+    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="Removed instance check to comply with latest openjdk-16 implementation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17249417" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.IndexedTreeMapTest">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -59,8 +61,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IndexedTreeMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="indexed-tree-map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dictiographer.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dictiographer.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.dictiographer.collections.IndexedTreeMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexedTreeSetTest.testIndexedTreeSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="indexed-tree-map" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dictiographer.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dictiographer.collections" />
+      <option name="MAIN_CLASS_NAME" value="com.dictiographer.collections.IndexedTreeSetTest" />
+      <option name="METHOD_NAME" value="testIndexedTreeSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IndexedTreeMapTest" />
+        <item itemvalue="JUnit.IndexedTreeSetTest.testIndexedTreeSet" />
         <item itemvalue="JUnit.All in indexed-tree-map" />
       </list>
     </recent_temporary>
@@ -73,7 +108,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621537635868</updated>
-      <workItem from="1621537637277" duration="6770000" />
+      <workItem from="1621537637277" duration="7933000" />
+      <workItem from="1621589702769" duration="516000" />
+      <workItem from="1621592462328" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Maven refactoring after import from Code Google. Update JUnit to v.5">
       <created>1621538025120</created>
@@ -96,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621543540589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed instance check to comply with latest openjdk-16 implementation.">
+      <created>1621547162545</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621547162545</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,11 +156,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven refactoring after import from Code Google. Update JUnit to v.5" />
     <MESSAGE value="Read me." />
     <MESSAGE value="Links to questions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Links to questions." />
+    <MESSAGE value="Removed instance check to comply with latest openjdk-16 implementation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed instance check to comply with latest openjdk-16 implementation." />
   </component>
 </project>
