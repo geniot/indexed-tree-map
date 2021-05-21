@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="Removed instance check to comply with latest openjdk-16 implementation.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java" afterDir="false" />
+    <list default="true" id="d96e1e37-4ac3-4bc0-9b8a-7a79f272272d" name="Default Changelist" comment="Correction in readme. Improved tests.">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/dictiographer/collections/IndexedTreeMapTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <updated>1621537635868</updated>
       <workItem from="1621537637277" duration="7933000" />
       <workItem from="1621589702769" duration="516000" />
-      <workItem from="1621592462328" duration="308000" />
+      <workItem from="1621592462328" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="Maven refactoring after import from Code Google. Update JUnit to v.5">
       <created>1621538025120</created>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621547162545</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correction in readme. Improved tests.">
+      <created>1621593062621</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621593062621</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +168,7 @@
     <MESSAGE value="Read me." />
     <MESSAGE value="Links to questions." />
     <MESSAGE value="Removed instance check to comply with latest openjdk-16 implementation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed instance check to comply with latest openjdk-16 implementation." />
+    <MESSAGE value="Correction in readme. Improved tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction in readme. Improved tests." />
   </component>
 </project>

@@ -73,7 +73,9 @@ we can see that lines reveal the sorted order of our tree elements.
 
 So to get index we need to sum up everything to the left of our node.
 
-If you are not sure about this check out the elaborate test
+If you are not sure about this check out the test:
+
+https://github.com/geniot/indexed-tree-map/blob/master/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java
 
 # How to use / install
 There are no versions and there will be no versions. I think what's done is enough.

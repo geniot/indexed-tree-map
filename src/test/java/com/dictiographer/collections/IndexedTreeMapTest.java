@@ -56,7 +56,7 @@ public class IndexedTreeMapTest {
         System.out.println("DONE IN:" + (System.currentTimeMillis() - t1));
     }
 
-
+    @Test
     public void testComparePutMap() throws Exception {
 
         Random random = new Random(System.currentTimeMillis());
@@ -91,6 +91,7 @@ public class IndexedTreeMapTest {
         System.out.println("For " + set.size() + " elements TreeMap wins IndexedTreeMap in put by:" + ((t2 - t1) - (t4 - t3)) + " milliseconds");
     }
 
+    @Test
     public void testCompareDeleteMap() throws Exception {
 
         Random random = new Random(System.currentTimeMillis());
