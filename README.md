@@ -82,7 +82,7 @@ There are no versions and there will be no versions. I think what's done is enou
 
 This library is not in the Maven repository and I currently do not have plans to put it there.
 
-Just copy the source code into your project and use it. Or create your own Maven library. 
+Just copy the source code (just 6 classes!) into your project and use it. Or create your own Maven library. 
 
 Or... whatever. 
 
