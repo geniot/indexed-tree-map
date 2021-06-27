@@ -1,4 +1,4 @@
-package com.dictiographer.collections;
+package io.github.geniot.indexedtreemap;
 
 /**
  * User: Vitaly Sazanovich

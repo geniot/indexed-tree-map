@@ -1,4 +1,4 @@
-package com.dictiographer.collections;
+package io.github.geniot.indexedtreemap;
 
 /**
  * User: Vitaly Sazanovich
@@ -306,7 +306,7 @@ public abstract class AbstractMap<K, V> implements Map<K, V> {
      */
     public Set<K> keySet() {
         if (keySet == null) {
-            keySet = new AbstractSet<K>() {
+            keySet = new io.github.geniot.indexedtreemap.AbstractSet<K>() {
                 public Iterator<K> iterator() {
                     return new Iterator<K>() {
                         private Iterator<Entry<K, V>> i = entrySet().iterator();

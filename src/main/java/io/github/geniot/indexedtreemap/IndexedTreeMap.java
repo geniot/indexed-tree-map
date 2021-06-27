@@ -1,4 +1,4 @@
-package com.dictiographer.collections;
+package io.github.geniot.indexedtreemap;
 
 /**
  * User: Vitaly Sazanovich
@@ -14,6 +14,7 @@ package com.dictiographer.collections;
  */
 
 import java.util.*;
+import java.util.AbstractSet;
 
 
 /**
@@ -94,7 +95,7 @@ import java.util.*;
  */
 
 public class IndexedTreeMap<K, V>
-        extends AbstractMap<K, V>
+        extends io.github.geniot.indexedtreemap.AbstractMap<K, V>
         implements IndexedNavigableMap<K, V>, Cloneable, java.io.Serializable {
     /**
      * The comparator used to maintain order in this tree map, or
@@ -1073,7 +1074,7 @@ public class IndexedTreeMap<K, V>
         }
     }
 
-    class EntrySet extends AbstractSet<Map.Entry<K, V>> {
+    class EntrySet extends io.github.geniot.indexedtreemap.AbstractSet<Map.Entry<K, V>> {
         public Iterator<Map.Entry<K, V>> iterator() {
             return new EntryIterator(getFirstEntry());
         }
@@ -1125,7 +1126,7 @@ public class IndexedTreeMap<K, V>
         return new DescendingKeyIterator(getLastEntry());
     }
 
-    static final class KeySet<E> extends AbstractSet<E> implements NavigableSet<E> {
+    static final class KeySet<E> extends io.github.geniot.indexedtreemap.AbstractSet<E> implements NavigableSet<E> {
         private final NavigableMap<E, Object> m;
 
         KeySet(NavigableMap<E, Object> map) {
@@ -1673,7 +1674,7 @@ public class IndexedTreeMap<K, V>
 
         // View classes
 
-        abstract class EntrySetView extends AbstractSet<Map.Entry<K, V>> {
+        abstract class EntrySetView extends AbstractSet<Entry<K, V>> {
             private transient int size = -1, sizeModCount;
 
             public int size() {
@@ -2057,7 +2058,7 @@ public class IndexedTreeMap<K, V>
      *
      * @serial include
      */
-    private class SubMap extends AbstractMap<K, V>
+    private class SubMap extends io.github.geniot.indexedtreemap.AbstractMap<K, V>
             implements SortedMap<K, V>, java.io.Serializable {
         private static final long serialVersionUID = -6520786458950516097L;
         private boolean fromStart = false, toEnd = false;

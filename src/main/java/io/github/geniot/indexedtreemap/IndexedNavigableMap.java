@@ -1,4 +1,4 @@
-package com.dictiographer.collections;
+package io.github.geniot.indexedtreemap;
 
 import java.util.NavigableMap;
 

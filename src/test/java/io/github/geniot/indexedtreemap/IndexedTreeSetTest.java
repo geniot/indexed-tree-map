@@ -1,9 +1,8 @@
-package com.dictiographer.collections;
+package io.github.geniot.indexedtreemap;
 
 
 import org.junit.jupiter.api.Test;
 
-import java.io.*;
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
