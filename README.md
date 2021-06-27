@@ -18,7 +18,7 @@ JDK's TreeMap / TreeSet implementation is based on the [red-black tree](https://
 
 # Implementation
 
-I added __*int weight*__ field to each node of the tree. 
+I copied SDK's code and added __*int weight*__ field to each node of the tree. 
 It contains the number of elements below the node plus 1 (self).
 
 Every time there is a change in the tree, weight is updated for changed nodes like this:
@@ -82,7 +82,7 @@ There are no versions and there will be no versions. I think what's done is enou
 
 This library is not in the Maven repository and I currently do not have plans to put it there.
 
-Just copy the source code into your project and use it. Or create your own Maven library. 
+Just copy the source code (just 6 classes!) into your project and use it. Or create your own Maven library. 
 
 Or... whatever. 
 
