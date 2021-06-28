@@ -21,10 +21,10 @@ import java.util.*;
  * The elements are ordered using their {@linkplain Comparable natural
  * ordering}, or by a {@link java.util.Comparator} provided at set creation
  * time, depending on which constructor is used.
- * <p/>
+ *
  * <p>This implementation provides guaranteed log(n) time cost for the basic
  * operations ({@code add}, {@code remove} and {@code contains}).
- * <p/>
+ *
  * <p>Note that the ordering maintained by a set (whether or not an explicit
  * comparator is provided) must be <i>consistent with equals</i> if it is to
  * correctly implement the {@code Set} interface.  (See {@code Comparable}
@@ -36,7 +36,7 @@ import java.util.*;
  * are, from the standpoint of the set, equal.  The behavior of a set
  * <i>is</i> well-defined even if its ordering is inconsistent with equals; it
  * just fails to obey the general contract of the {@code Set} interface.
- * <p/>
+ *
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access a tree set concurrently, and at least one
  * of the threads modifies the set, it <i>must</i> be synchronized
@@ -47,7 +47,7 @@ import java.util.*;
  * method.  This is best done at creation time, to prevent accidental
  * unsynchronized access to the set: <pre>
  *   SortedSet s = Collections.synchronizedSortedSet(new IndexedTreeSet(...));</pre>
- * <p/>
+ *
  * <p>The iterators returned by this class's {@code iterator} method are
  * <i>fail-fast</i>: if the set is modified at any time after the iterator is
  * created, in any way except through the iterator's own {@code remove}
@@ -55,7 +55,7 @@ import java.util.*;
  * Thus, in the face of concurrent modification, the iterator fails quickly
  * and cleanly, rather than risking arbitrary, non-deterministic behavior at
  * an undetermined time in the future.
- * <p/>
+ *
  * <p>Note that the fail-fast behavior of an iterator cannot be guaranteed
  * as it is, generally speaking, impossible to make any hard guarantees in the
  * presence of unsynchronized concurrent modification.  Fail-fast iterators
@@ -63,7 +63,7 @@ import java.util.*;
  * Therefore, it would be wrong to write a program that depended on this
  * exception for its correctness:   <i>the fail-fast behavior of iterators
  * should be used only to detect bugs.</i>
- * <p/>
+ *
  * <p>This class is a member of the
  * <a href="{@docRoot}/../technotes/guides/collections/index.html">
  * Java Collections Framework</a>.
@@ -118,7 +118,7 @@ public class IndexedTreeSet<E> extends java.util.AbstractSet<E>
      * Constructs a new, empty tree set, sorted according to the specified
      * comparator.  All elements inserted into the set must be <i>mutually
      * comparable</i> by the specified comparator: {@code comparator.compare(e1,
-     *e2)} must not throw a {@code ClassCastException} for any elements
+     * e2)} must not throw a {@code ClassCastException} for any elements
      * {@code e1} and {@code e2} in the set.  If the user attempts to add
      * an element to the set that violates this constraint, the
      * {@code add} call will throw a {@code ClassCastException}.
@@ -234,7 +234,7 @@ public class IndexedTreeSet<E> extends java.util.AbstractSet<E>
      *
      * @param e element to be added to this set
      * @return {@code true} if this set did not already contain the specified
-     *         element
+     * element
      * @throws ClassCastException   if the specified object cannot be compared
      *                              with the elements currently in this set
      * @throws NullPointerException if the specified element is null
@@ -475,6 +475,8 @@ public class IndexedTreeSet<E> extends java.util.AbstractSet<E>
      * Save the state of the {@code IndexedTreeSet} instance to a stream (that is,
      * serialize it).
      *
+     * @param s input stream
+     * @throws java.io.IOException io exception
      * @serialData Emits the comparator used to order this set, or
      * {@code null} if it obeys its elements' natural ordering
      * (Object), followed by the size of the set (the number of
@@ -502,6 +504,10 @@ public class IndexedTreeSet<E> extends java.util.AbstractSet<E>
     /**
      * Reconstitute the {@code IndexedTreeSet} instance from a stream (that is,
      * deserialize it).
+     *
+     * @param s input stream
+     * @throws java.io.IOException io exception
+     * @throws ClassNotFoundException class not found
      */
     private void readObject(java.io.ObjectInputStream s)
             throws java.io.IOException, ClassNotFoundException {
