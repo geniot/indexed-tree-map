@@ -6,7 +6,7 @@
 
     <groupId>io.github.geniot</groupId>
     <artifactId>indexedtreemap</artifactId>
-    <version>1.0</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>index-tree-map</name>

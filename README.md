@@ -16,6 +16,14 @@ JDK's TreeMap / TreeSet implementation is based on the [red-black tree](https://
         int keyIndex(K k);
     }
 
+# How to use / install
+
+        <dependency>
+            <groupId>io.github.geniot</groupId>
+            <artifactId>indexedtreemap</artifactId>
+            <version>1.1</version>
+        </dependency>
+
 # Implementation
 
 I copied SDK's code and added __*int weight*__ field to each node of the tree. 
@@ -77,20 +85,14 @@ If you are not sure about this check out the test:
 
 https://github.com/geniot/indexed-tree-map/blob/master/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java
 
-# How to use / install
-There are no versions and there will be no versions. I think what's done is enough.
-
-This library is not in the Maven repository and I currently do not have plans to put it there.
-
-Just copy the source code (just 6 classes!) into your project and use it. Or create your own Maven library. 
-
-Or... whatever. 
-
 # License
 The same as of JDK. I copied the implementation and enhanced it. 
+I don't think I have the right to change the license.
+
+https://www.oracle.com/downloads/licenses/javase-license1.html
 
 # Links
-Popular question on Stackoverflow:
+Popular questions on Stackoverflow:
 
 How to return the k-th element in TreeSet in Java?
 https://stackoverflow.com/questions/8856815/how-to-return-the-k-th-element-in-treeset-in-java
