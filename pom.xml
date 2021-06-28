@@ -9,20 +9,46 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <junit.version>5.8.0-M1</junit.version>
-    </properties>
+    <name>index-tree-map</name>
+    <description>Enhanced java.util.TreeSet with get element by index, get index of an element. The implementation is based on node weights.</description>
+    <url>https://github.com/geniot/indexed-tree-map</url>
+    <licenses>
+        <license>
+            <name>Oracle Technology Network License Agreement for Oracle Java SE</name>
+            <url>https://www.oracle.com/downloads/licenses/javase-license1.html</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Vitaly Sazanovich</name>
+            <email>vitaly.sazanovich@gmail.com</email>
+            <organization>Dictiographer</organization>
+            <organizationUrl>http://dictiographer.com</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git:github.com/geniot/indexed-tree-map.git</connection>
+        <developerConnection>scm:git:ssh://github.com/geniot/indexed-tree-map.git</developerConnection>
+        <url>http://github.com/geniot/indexed-tree-map/tree/master</url>
+    </scm>
 
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
     </distributionManagement>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <junit.version>5.8.0-M1</junit.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -41,17 +67,7 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.sonatype.plugins</groupId>
-                <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.7</version>
-                <extensions>true</extensions>
-                <configuration>
-                    <serverId>ossrh</serverId>
-                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
-                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                </configuration>
-            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -65,6 +81,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
@@ -78,6 +95,7 @@
                     </execution>
                 </executions>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
@@ -97,6 +115,19 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.7</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -108,6 +139,7 @@
                     </compilerArgs>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
 </project>
