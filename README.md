@@ -16,7 +16,7 @@ JDK's TreeMap / TreeSet implementation is based on the [red-black tree](https://
         int keyIndex(K k);
     }
     
-Or simply use IndexedTreeSet.java and IndexedTreeMap.java to avoid the interface complexity.
+Or simply use [IndexedTreeSet.java](https://github.com/geniot/indexed-tree-map/blob/master/src/main/java/io/github/geniot/indexedtreemap/IndexedTreeSet.java) and [IndexedTreeMap.java](https://github.com/geniot/indexed-tree-map/blob/master/src/main/java/io/github/geniot/indexedtreemap/IndexedTreeMap.java) to avoid the interface complexity.
 
 # How to use / install
 
