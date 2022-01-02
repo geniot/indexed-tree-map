@@ -15,6 +15,8 @@ JDK's TreeMap / TreeSet implementation is based on the [red-black tree](https://
         Entry<K, V> exactEntry(int index);
         int keyIndex(K k);
     }
+    
+Or simply use IndexedTreeSet.java and IndexedTreeMap.java to avoid the interface complexity.
 
 # How to use / install
 
@@ -83,7 +85,7 @@ So to get index we need to sum up everything to the left of our node.
 
 If you are not sure about this check out the test:
 
-https://github.com/geniot/indexed-tree-map/blob/master/src/test/java/com/dictiographer/collections/IndexedTreeSetTest.java
+https://github.com/geniot/indexed-tree-map/blob/master/src/test/java/io/github/geniot/indexedtreemap/IndexedTreeSetTest.java
 
 # License
 The same as of JDK. I copied the implementation and enhanced it. 
