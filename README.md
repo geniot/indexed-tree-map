@@ -81,7 +81,7 @@ Index starts from 0. 11 is 4th element, so index = 3
 Indeed. If we draw vertical lines through centers of each node 
 we can see that lines reveal the sorted order of our tree elements.
 
-So to get index we need to sum up everything to the left of our node.
+**So to get the index of an element we need to sum up everything to the left of our node.**
 
 If you are not sure about this check out the test:
 
