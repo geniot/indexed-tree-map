@@ -22,8 +22,6 @@
         <developer>
             <name>Vitaly Sazanovich</name>
             <email>vitaly.sazanovich@gmail.com</email>
-            <organization>Dictiographer</organization>
-            <organizationUrl>http://dictiographer.com</organizationUrl>
         </developer>
     </developers>
     <scm>
@@ -47,7 +45,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <junit.version>5.8.0-M1</junit.version>
+        <junit.version>6.0.3</junit.version>
     </properties>
 
     <dependencies>
