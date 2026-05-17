@@ -2736,6 +2736,7 @@ public class IndexedTreeMap<K, V>
         if (left != null) {
             middle.left = left;
             left.parent = middle;
+            left.updateWeight(1);
         }
 
         if (mid < hi) {
@@ -2743,6 +2744,7 @@ public class IndexedTreeMap<K, V>
                     it, str, defaultVal);
             middle.right = right;
             right.parent = middle;
+            right.updateWeight(1);
         }
 
         return middle;

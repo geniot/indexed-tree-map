@@ -49,4 +49,19 @@ public class IndexedTreeSetTest {
         }
         System.out.println("DONE IN:" + (System.currentTimeMillis() - t1));
     }
+
+    @Test
+    public void testIndexedTreeSet2() throws Exception {
+        IndexedTreeSet<Long> its = new IndexedTreeSet<>();
+        TreeSet<Long> ts = new TreeSet<>();
+        for (int i = 0; i < 5; i++) {
+            ts.add((long) i);
+        }
+        its.addAll(ts);
+
+        System.out.println(its);
+        for (int i = 0; i < 5; i++) {
+            assertEquals(i, its.exact(i), "idx=" + i + " value=" + i);
+        }
+    }
 }
