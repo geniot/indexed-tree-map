@@ -20,11 +20,16 @@ Or simply use [IndexedTreeSet.java](https://github.com/geniot/indexed-tree-map/b
 
 # How to use / install
 
+Use an older released version:
+
         <dependency>
             <groupId>io.github.geniot</groupId>
             <artifactId>indexedtreemap</artifactId>
             <version>1.1</version>
         </dependency>
+
+Or just pull the source code and embed it into your project. 
+It's just 6 classes. Or 4 if you don't need navigable interfaces.
 
 # Implementation
 
